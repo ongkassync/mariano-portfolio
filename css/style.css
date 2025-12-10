@@ -180,6 +180,11 @@ a,
   color: var(--gold);
 }
 
+.logo {
+    width: 800px;
+    display: block;
+}
+
 /* Hero Sections Starts Here */
 .hero-section {
   margin-top: clamp(8rem, 30vw, 10rem);
@@ -266,6 +271,7 @@ a,
 
 .about-desc p:nth-of-type(1) {
   margin-block-end: 0.75rem;
+  text-justify: auto;
 }
 
 /* Skills Starts Here */
